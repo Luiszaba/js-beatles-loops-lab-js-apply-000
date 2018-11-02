@@ -11,7 +11,7 @@ return emptyArray; // remember to curly bracket close before the return function
 function johnLennonFacts (infoArray) {
   var array = []
   for (var i = 0; i < infoArray.length; i++) {
-    array.push(infoArray[i] + "!!!") //may or may not need `${} for solution
+    array.push(infoArray[i] + "!!!") //may or may not need `${} for solution? Research needed.
   }
   return array
 }
